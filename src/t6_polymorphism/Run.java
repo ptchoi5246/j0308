@@ -4,10 +4,10 @@ public class Run {
 	public static void main(String[] args) {
 		
 		Aa aa = new Aa();
-		System.out.println();
+		System.out.println(); //aa = Aa 새로운 객체 생성
 		
-		Bb bb = new Bb();
-		Aa ba = bb; //bb 타입변환		//#1
+		Bb bb = new Bb(); // bb = Bb 새로운 객체 생성
+		Aa ba = bb; //bb 타입변환		//#1 // 
 		Aa ba2 = new Bb(); //#2
 		System.out.println();
 		

@@ -6,6 +6,7 @@ public class Bb extends Aa {
 	//동작 메소드를 작성하면 오류
 	int su = item1; //상속을 받지 않으면 int su = item1; == 오류 //item1을 선언 안 하고도 상속 받아서 부모껄로 사용 가능
 	
+	//생성자
 	public Bb() {
 		System.out.println("이곳은 Ba 클래스의 기본 생성자");
 	}

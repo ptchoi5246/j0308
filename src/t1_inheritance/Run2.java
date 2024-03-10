@@ -10,7 +10,7 @@ public class Run2 { //실행
 		
 		
 //		b.areaPoly(10, 20, 5); //객체 b가 본인 B의 areaPoly 불러서 입력값 넣어서 출력
-		d.areaPoly(10, 20, 5); //객체 d가 부모 D의 areaPoly 불러서 입력값 넣어서 출력
+		d.areaPoly(10, 20, 5); //객체 d가 부모 B의 areaPoly 불러서 입력값 넣어서 출력
 //		//클래스 D (객체d)는 B를 부모로 상속받기 때문에 d.areaPoly로 사용해도 된다.
 		
 	}

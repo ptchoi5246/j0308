@@ -8,6 +8,8 @@ public class Aa {
 	int c = 30;
 	private  int d = 40; //게터 세터 만들기
 	
+	
+
 	//메소드 접근자
 	public void modA() {
 		System.out.println("이곳은 Aa클래스의 modA 메소드 입니다.");

@@ -18,8 +18,8 @@ public class Run {
 		System.out.println("반지름을 입력하세요. ");
 		int r = sc.nextInt();
 		
-		if(ans == 1)cc.areaCircle(r); //pi
-		else if (ans == 2) cc.areaCircle2(r); //3.14
+		if(ans == 1)cc.areaCircle(r); //pi 오버라이드 Math.PI  Cc
+		else if (ans == 2) cc.areaCircle2(r); //3.14 Cc Circle2 3.14
 		else System.out.println("코드를 다시 처리해 주세요.");
 				
 				

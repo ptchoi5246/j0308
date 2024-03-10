@@ -11,8 +11,8 @@ public class Run { //클래스 = 스레드
 		//기본 생성자만 실행이 된다.
 		//()매개변수를 넣어서 부르면 매개변수가 들어간 걸 부른다.
 		//Aa 기본생성자
-		bb1.areaRec(10, 20);
-		bb1.areaPoly(1, 2, 3);
+		bb1.areaRec(10, 20); //Aa의 areaRec
+		bb1.areaPoly(1, 2, 3); //Bb의 areaPoly
 		System.out.println();
 		
 		
