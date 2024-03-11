@@ -26,10 +26,5 @@ public abstract class Phone {
 
 	public void functionSamsung() {}
 	public void functionLG() {}
-	
-	
-	
-	
-	
-	
+		
 }
