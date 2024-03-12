@@ -8,6 +8,8 @@ public class Test2Run {
 		//익명 구현객체에 구현할 메소드를 만들어준다.
 		Test2 t22 = new Test2() {
 			int atom = 200;
+			
+			@Override
 			public void abc(){ //메소드 만들기 //접근제한자 public 무조건! 생략할 경우 default로 기본으로 돼서 오류
 				int temp = atom; ////인터페이스 변수로 접근 불가이다
 				System.out.println("이곳은 Test2Run 클래스의 t22익명 객체 안의 abc()메소드 입니다.");
